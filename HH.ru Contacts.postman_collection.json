@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "90eefef4-2234-404b-bbbe-4b56ed05a263",
+		"name": "HH.ru Contacts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49586774",
+		"_collection_link": "https://bymbvc-8331081.postman.co/workspace/Sonybvc's-Workspace~9e797d43-57c4-4079-8b90-a1b12c444eca/collection/49586774-90eefef4-2234-404b-bbbe-4b56ed05a263?action=share&source=collection_link&creator=49586774"
+	},
+	"item": [
+		{
+			"name": "Get Vacancy Contacts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "hh.ru"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-trace_id=ba91cb442ace47d5858bee2180a862aa,sentry-sample_rand=0.549162,sentry-environment=production,sentry-release=xhh%4025.44.1.5,sentry-public_key=0cc3a09b6698423b8ca47d3478cfccac,sentry-transaction=%2Fvacancy%2F%7Bid%3Aint%7D,sentry-sample_rate=0.001,sentry-sampled=false"
+					},
+					{
+						"key": "cookie",
+						"value": "__ddg1_=f5OjoyLoVMpyyCqdmBHU; region_clarified=NOT_SET; hhtoken=5eT2bqea46GZjJC5Eru38TbMUziZ; hhuid=u6mGUyGMU6RHZWeY6Ic1og--; tmr_lvid=1e7da1b317ad54d015fad0b54936018b; tmr_lvidTS=1738074253428; _ym_uid=1738074254994024781; iap.uid=66a99456783249de8b810a243a9a6b58; uxs_uid=8d5d2200-dd83-11ef-a9e0-e3b25d5feac0; hhul=f14a5d0ad3ed82f2b6fdc96fed6699a63d0c73b563914887d6fa63f47309fa77; crypted_hhuid=23BE2A80383E16B473520F29C23480B61B37067F5AFF9B25ABF054DB4476C703; _xsrf=a3ffa161c7cb02363f23d3b4ce3bd103; GMT=3; _ym_d=1755269701; display=desktop; __ddg9_=45.139.77.243; _ibc=False; domain_sid=aFWp6lSZmmqlMuCSi9G3A%3A1761589629336; _ym_isad=2; _ym_visorc=b; cookie_policy_agreement=true; hhrole=applicant; _hi=151773934; crypted_id=DB76B9FC794C8B23CA1692D31B59D7E0A5471C6F722104504734B32F0D03E9F8; total_searches=8; regions=1; _ga=GA1.2.39566898.1761591767; _gid=GA1.2.1924150596.1761591767; device_magritte_breakpoint=xs; tmr_detect=0%7C1761592111811; device_breakpoint=xs; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3MsQWwlYngXJkwRVn1ZShN7KFVPOD1jcEl0d1s9bB4dOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFN6KiITeGwnURASVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1ggGH9sJlAQDVxDQXEuLztnUGB4FSh0W1V+JhtGMCkpUzoUYHFKdC4bN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mTVokTFdOeikbGnlnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceZEhgJkZeUH0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyKVAMFF0+QnF1Mj9hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=CfPK+A==; __ddg10_=1761592119; __ddg8_=rcCTvU09hAZ8yhQ2; gsscgib-w-hh=PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA==; cfidsgib-w-hh=2w8gyYaws86JqTK1wLmJDRmyy2hVUkY9n+1y2RJ0xHDm2nhvcCdR1UlqtlGyTm6zSR/ygG3dfHGw2PikiBfFvkozt9lAYiLi6crgsXzjim8QEhnNaV6sVuJUMtyUDGbJkfxb1KOSIsR9LosUlKvoq/6CPKE4JbKcoSRl3A==; cfidsgib-w-hh=2w8gyYaws86JqTK1wLmJDRmyy2hVUkY9n+1y2RJ0xHDm2nhvcCdR1UlqtlGyTm6zSR/ygG3dfHGw2PikiBfFvkozt9lAYiLi6crgsXzjim8QEhnNaV6sVuJUMtyUDGbJkfxb1KOSIsR9LosUlKvoq/6CPKE4JbKcoSRl3A==; gsscgib-w-hh=PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA==; fgsscgib-w-hh=kr5Te7ffa3e7d8025992372047459652eb4e87cf"
+					},
+					{
+						"key": "referer",
+						"value": "https://hh.ru/vacancy/122207364?query=Javascript+junior&hhtmFrom=vacancy_search_list"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "ba91cb442ace47d5858bee2180a862aa-9714c4a0fc458ff1-0"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+					},
+					{
+						"key": "x-gib-fgsscgib-w-hh",
+						"value": "kr5Te7ffa3e7d8025992372047459652eb4e87cf"
+					},
+					{
+						"key": "x-gib-gsscgib-w-hh",
+						"value": "PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA=="
+					},
+					{
+						"key": "x-hhtmfrom",
+						"value": "vacancy_search_list"
+					},
+					{
+						"key": "x-hhtmsource",
+						"value": "vacancy"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-xsrftoken",
+						"value": "a3ffa161c7cb02363f23d3b4ce3bd103"
+					}
+				],
+				"url": {
+					"raw": "https://hh.ru/shards/vacancy/contact_info?employer_id={{vacancyId}}&id=122207364",
+					"protocol": "https",
+					"host": [
+						"hh",
+						"ru"
+					],
+					"path": [
+						"shards",
+						"vacancy",
+						"contact_info"
+					],
+					"query": [
+						{
+							"key": "employer_id",
+							"value": "{{vacancyId}}"
+						},
+						{
+							"key": "id",
+							"value": "122207364"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://hh.ru/shards/vacancy/contact_info?employer_id=999442&id=122207364' \\\n  -H 'authority: hh.ru' \\\n  -H 'accept: application/json' \\\n  -H 'accept-language: ru,en;q=0.9' \\\n  -H 'baggage: sentry-trace_id=ba91cb442ace47d5858bee2180a862aa,sentry-sample_rand=0.549162,sentry-environment=production,sentry-release=xhh%4025.44.1.5,sentry-public_key=0cc3a09b6698423b8ca47d3478cfccac,sentry-transaction=%2Fvacancy%2F%7Bid%3Aint%7D,sentry-sample_rate=0.001,sentry-sampled=false' \\\n  -H 'cookie: __ddg1_=f5OjoyLoVMpyyCqdmBHU; region_clarified=NOT_SET; hhtoken=5eT2bqea46GZjJC5Eru38TbMUziZ; hhuid=u6mGUyGMU6RHZWeY6Ic1og--; tmr_lvid=1e7da1b317ad54d015fad0b54936018b; tmr_lvidTS=1738074253428; _ym_uid=1738074254994024781; iap.uid=66a99456783249de8b810a243a9a6b58; uxs_uid=8d5d2200-dd83-11ef-a9e0-e3b25d5feac0; hhul=f14a5d0ad3ed82f2b6fdc96fed6699a63d0c73b563914887d6fa63f47309fa77; crypted_hhuid=23BE2A80383E16B473520F29C23480B61B37067F5AFF9B25ABF054DB4476C703; _xsrf=a3ffa161c7cb02363f23d3b4ce3bd103; GMT=3; _ym_d=1755269701; display=desktop; __ddg9_=45.139.77.243; _ibc=False; domain_sid=aFWp6lSZmmqlMuCSi9G3A%3A1761589629336; _ym_isad=2; _ym_visorc=b; cookie_policy_agreement=true; hhrole=applicant; _hi=151773934; crypted_id=DB76B9FC794C8B23CA1692D31B59D7E0A5471C6F722104504734B32F0D03E9F8; total_searches=8; regions=1; _ga=GA1.2.39566898.1761591767; _gid=GA1.2.1924150596.1761591767; device_magritte_breakpoint=xs; tmr_detect=0%7C1761592111811; device_breakpoint=xs; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3MsQWwlYngXJkwRVn1ZShN7KFVPOD1jcEl0d1s9bB4dOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFN6KiITeGwnURASVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1ggGH9sJlAQDVxDQXEuLztnUGB4FSh0W1V+JhtGMCkpUzoUYHFKdC4bN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mTVokTFdOeikbGnlnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceZEhgJkZeUH0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyKVAMFF0+QnF1Mj9hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=CfPK+A==; __ddg10_=1761592119; __ddg8_=rcCTvU09hAZ8yhQ2; gsscgib-w-hh=PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA==; cfidsgib-w-hh=2w8gyYaws86JqTK1wLmJDRmyy2hVUkY9n+1y2RJ0xHDm2nhvcCdR1UlqtlGyTm6zSR/ygG3dfHGw2PikiBfFvkozt9lAYiLi6crgsXzjim8QEhnNaV6sVuJUMtyUDGbJkfxb1KOSIsR9LosUlKvoq/6CPKE4JbKcoSRl3A==; cfidsgib-w-hh=2w8gyYaws86JqTK1wLmJDRmyy2hVUkY9n+1y2RJ0xHDm2nhvcCdR1UlqtlGyTm6zSR/ygG3dfHGw2PikiBfFvkozt9lAYiLi6crgsXzjim8QEhnNaV6sVuJUMtyUDGbJkfxb1KOSIsR9LosUlKvoq/6CPKE4JbKcoSRl3A==; gsscgib-w-hh=PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA==; fgsscgib-w-hh=kr5Te7ffa3e7d8025992372047459652eb4e87cf' \\\n  -H 'referer: https://hh.ru/vacancy/122207364?query=Javascript+junior&hhtmFrom=vacancy_search_list' \\\n  -H 'sec-fetch-dest: empty' \\\n  -H 'sec-fetch-mode: cors' \\\n  -H 'sec-fetch-site: same-origin' \\\n  -H 'sentry-trace: ba91cb442ace47d5858bee2180a862aa-9714c4a0fc458ff1-0' \\\n  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \\\n  -H 'x-gib-fgsscgib-w-hh: kr5Te7ffa3e7d8025992372047459652eb4e87cf' \\\n  -H 'x-gib-gsscgib-w-hh: PjjL9KVpkaWZb9dS+B4BgyxVpVSBAc7ZIJuL+HCls5+E3GHnoa7B+rKeJCb0taR08FIJUulMkmXVfsUnULQukE8xYWX8LWS7A9cDVydLE1jT6j31GF56eFZkdMLs0Un345Zp7THcUiptIS7yqC7ZRcTOFm3I+EPQK8jek8UrxafYpUyNKqqBCpPhgfEcuBjl/H1nDL9iTCED937mV9Afk1Cq6NZxmpuvhR8zWUy/A0dDK58gnAPztO3NrXLWIxZxu9lLwim3ki3kEMdpa/y6yHlWgCARLHAjYA==' \\\n  -H 'x-hhtmfrom: vacancy_search_list' \\\n  -H 'x-hhtmsource: vacancy' \\\n  -H 'x-requested-with: XMLHttpRequest' \\\n  -H 'x-xsrftoken: a3ffa161c7cb02363f23d3b4ce3bd103' \\\n  --compressed"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "vacancyId",
+			"value": ""
+		}
+	]
+}
